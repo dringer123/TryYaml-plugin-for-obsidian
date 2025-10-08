@@ -85,22 +85,22 @@ http:
 ### 手动安装
 
 1.  从 [GitHub Releases](https://github.com/dringer123/TryYaml-plugin-for-obsidian/releases) 页面下载最新的 `main.js`, `styles.css`, `manifest.json` 文件。
-2.  在你的 Obsidian 仓库中，进入 `.obsidian/plugins` 目录。
-3.  创建一个新的文件夹，例如 `obsidian-nuclei-converter`。
+2.  在你的 Obsidian 仓库中，进入 `.obsidian/plugins` 目录，(没有就创建；注意：每次选择obsidian的新仓库目录时，插件不会跟随过去，因为他们总是在一个仓库目录下的隐藏目录.obsidian/plugins)。
+3.  创建一个新的文件夹，例如 `TryYaml-plugin`。
 4.  将下载的三个文件复制到这个新创建的文件夹中。
-5.  重启 Obsidian，然后在设置中启用 "Nuclei Converter" 插件。
+5.  重启 Obsidian，然后在设置中启用 "TryYaml-plugin" 插件。
 
 ---
 
 ## ⚙️ 如何使用
 
-1.  **准备模板**: 将你的 Nuclei YAML 模板文件放入 Obsidian 仓库的任意文件夹中（例如 `MyTemplates/cves`）。
+1.  **准备模板**: 将你的 Nuclei YAML 模板文件放入 Obsidian 仓库的任意文件夹中（例如 `nuclei-templates/cves`）。
 2.  **配置插件**:
     -   进入插件设置页面。
     -   （可选）如果你想使用 AI 功能，填入你的 **通义千问 API Key** 并 **启用 AI**。
 3.  **打开转换器**:
     -   点击 Obsidian 左侧 Ribbon 栏的 ![图标](https://raw.githubusercontent.com/lucide-icons/lucide/master/icons/file-cog.svg) 图标。
-    -   或使用命令面板 (Ctrl/Cmd + P) 搜索并执行 `打开 Nuclei 模板转换器`。
+    -   或使用命令面板 (Ctrl/Cmd + P) 搜索并执行 `TryYaml-plugin`。
 4.  **开始处理**:
     -   在插件视图中，从下拉菜单选择包含 Nuclei 模板的 **处理目录**。
     -   点击 **“开始处理”** 按钮。
