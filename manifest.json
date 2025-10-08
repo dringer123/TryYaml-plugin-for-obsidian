@@ -1,7 +1,7 @@
 {
-	"id": "Try-Yaml-To-Md",
-	"name": "Try-Yaml-To-Md",
-	"version": "1.2.0",
+	"id": "try-yaml-to-md",
+	"name": "try-yaml-to-md",
+	"version": "1.3.0",
 	"minAppVersion": "0.15.0",
 	"description": "牛逼轰轰的yaml poc可视化插件.",
 	"author": "dringer123",
