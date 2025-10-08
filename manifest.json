@@ -1,11 +1,11 @@
 {
-	"id": "TryYaml-plugin",
-	"name": "TryYaml Plugin",
+	"id": "Try-Yaml-To-Md",
+	"name": "Try-Yaml-To-Md Plugin",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
 	"description": "牛逼轰轰的yaml poc可视化插件.",
-	"author": "dringer",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
+	"author": "dringer123",
+	"authorUrl": "https://github.com/dringer123/",
+	"fundingUrl": "https://github.com/dringer123/TryYaml-plugin-for-obsidian/",
 	"isDesktopOnly": false
 }
