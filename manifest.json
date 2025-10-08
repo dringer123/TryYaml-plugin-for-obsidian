@@ -1,0 +1,11 @@
+{
+	"id": "TryYaml-plugin",
+	"name": "TryYaml Plugin",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "牛逼轰轰的yaml poc可视化插件.",
+	"author": "dringer",
+	"authorUrl": "https://obsidian.md",
+	"fundingUrl": "https://obsidian.md/pricing",
+	"isDesktopOnly": false
+}

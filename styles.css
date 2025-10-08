@@ -1,0 +1,10 @@
+.logs-container {
+    background-color: var(--background-secondary-alt);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: var(--radius-m);
+    padding: 10px;
+    height: 200px; /* 或者你想要的高度 */
+    overflow-y: auto; /* 超出高度时显示滚动条 */
+    font-family: var(--font-monospace);
+    font-size: var(--font-ui-small);
+}
