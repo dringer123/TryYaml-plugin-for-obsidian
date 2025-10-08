@@ -32,7 +32,7 @@
 
 *强烈建议您在此处放置一个 GIF 动图，展示从选择目录到点击处理，再到生成 Markdown 文件的完整流程。*
 
-![Plugin Demo GIF](https://user-images.githubusercontent.com/…..gif)  <!-- 替换为你的 GIF 链接 -->
+![Plugin Demo GIF](https://github.com/user-attachments/assets/ff429838-2300-4f5b-b47f-f8725ecc286f)
 
 **生成的 Markdown 文件示例:**
 
