@@ -80,7 +80,7 @@ http:
 1.  Open Obsidian `Settings` > `Community plugins`.
 2.  Make sure `Restricted mode` is **off**.
 3.  Click `Browse` to search for community plugins.
-4.  Search for "Nuclei Converter".
+4.  Search for "try-yaml-to-md".
 5.  Click `Install` to install the plugin.
 6.  Once installed, click `Enable` to activate it.
 
