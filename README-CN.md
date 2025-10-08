@@ -148,7 +148,9 @@ http:
 
 -   提交 [Issues](https://github.com/dringer123/TryYaml-plugin-for-obsidian/issues) 来报告问题或提出建议。
 -   提交 [Pull Requests](https://github.com/dringer123/TryYaml-plugin-for-obsidian/pulls) 来贡献代码。
-
+## 🤝  AAAAA NNNNNN  DDDD
+-   如果你喜欢这个插件，请我喝杯奶茶把~
+-   ![image](https://github.com/user-attachments/assets/3321a0a2-2d1d-4a12-9601-0f5c5acb988c)
 ## 📄 许可证
 
 本项目基于 [MIT License](./LICENSE) 许可证。
