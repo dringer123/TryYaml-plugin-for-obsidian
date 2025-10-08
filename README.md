@@ -1,6 +1,6 @@
 [简体中文](./README-CN.md)
 
-# Obsidian Nuclei Converter
+# Obsidian NucleiYaml Plugin : Try-Yaml-To-Md
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/dringer123/TryYaml-plugin-for-obsidian)
 ![GitHub License](https://img.shields.io/github/license/dringer123/TryYaml-plugin-for-obsidian)
@@ -150,6 +150,11 @@ Contributions of any kind are welcome! If you have great ideas, find a bug, or w
 
 -   Open an [Issue](https://github.com/dringer123/TryYaml-plugin-for-obsidian/issues) to report problems or suggest features.
 -   Submit a [Pull Request](https://github.com/dringer123/TryYaml-plugin-for-obsidian/pulls) to contribute code.
+
+## 🤝  AAAAA NNNNNN  DDDD
+-   If You Like This Plugin ! Please donate any amount of money to me, Wechat:
+-   ![image](https://github.com/user-attachments/assets/3321a0a2-2d1d-4a12-9601-0f5c5acb988c)
+
 
 ## 📄 License
 
