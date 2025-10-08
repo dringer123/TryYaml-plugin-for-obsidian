@@ -1,4 +1,4 @@
-# Obsidian Nuclei Converter
+# try-yaml-to-md 将NucleiYaml模板批量转换为md可读文档
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/dringer123/TryYaml-plugin-for-obsidian)
 ![GitHub License](https://img.shields.io/github/license/dringer123/TryYaml-plugin-for-obsidian)
@@ -78,7 +78,7 @@ http:
 1.  打开 Obsidian 设置 > `Community plugins`。
 2.  确保 `Restricted mode` 是 **关闭** 状态。
 3.  点击 `Browse` 浏览社区插件。
-4.  搜索 "Nuclei Converter"。
+4.  搜索 "try-yaml-to-md"。
 5.  点击 `Install` 安装插件。
 6.  安装完成后，点击 `Enable` 启用插件。
 
