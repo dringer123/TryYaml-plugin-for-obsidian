@@ -1,6 +1,6 @@
 {
 	"id": "Try-Yaml-To-Md",
-	"name": "Try-Yaml-To-Md Plugin",
+	"name": "Try-Yaml-To-Md",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
 	"description": "牛逼轰轰的yaml poc可视化插件.",
