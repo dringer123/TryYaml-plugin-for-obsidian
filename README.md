@@ -1,6 +1,6 @@
 [简体中文](./README-CN.md)
 
-# Obsidian NucleiYaml Plugin : Try-Yaml-To-Md
+# Obsidian NucleiYaml Plugin : try-yaml-to-md 将NucleiYaml模板批量转换为md可读文档
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/dringer123/TryYaml-plugin-for-obsidian)
 ![GitHub License](https://img.shields.io/github/license/dringer123/TryYaml-plugin-for-obsidian)
