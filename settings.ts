@@ -1,7 +1,7 @@
-import { App, PluginSettingTab, Setting } from 'obsidian';
-import MyPlugin from './main'; // 导入主插件类
+import { App, PluginSettingTab, Setting, TextAreaComponent } from 'obsidian'; // 补充了 TextAreaComponent 的导入
+// 【修改2】导入重命名后的主插件类
+import NucleiConverterPlugin from './main'; 
 
-// 定义插件设置的接口
 export interface NucleiConverterSettings {
     processingPath: string;
     aiEnabled: boolean;
@@ -10,13 +10,11 @@ export interface NucleiConverterSettings {
     aiPrompt: string;
 }
 
-// 默认设置
 export const DEFAULT_SETTINGS: NucleiConverterSettings = {
     processingPath: '/',
     aiEnabled: false,
     aiApiKey: '',
     aiModel: 'qwen-turbo',
-    // 在这里更新为新的默认 Prompt
     aiPrompt: 
 `你是一个专业的网络安全专家。请分析以下 Nuclei 模板中的漏洞名和原始描述，并完成两个任务：
 1. 将漏洞描述翻译成中文，如果原始描述不清不楚，请结合其漏洞名进行优化。
@@ -31,12 +29,12 @@ export const DEFAULT_SETTINGS: NucleiConverterSettings = {
   "suggestion": "在这里填写你的修复建议"
 }`
 };
-// 设置页面
-// 设置面板的UI实现
-export class NucleiSettingTab extends PluginSettingTab {
-    plugin: MyPlugin;
 
-    constructor(app: App, plugin: MyPlugin) {
+export class NucleiSettingTab extends PluginSettingTab {
+    // 【修改2】更新类型定义
+    plugin: NucleiConverterPlugin;
+
+    constructor(app: App, plugin: NucleiConverterPlugin) {
         super(app, plugin);
         this.plugin = plugin;
     }
@@ -44,7 +42,6 @@ export class NucleiSettingTab extends PluginSettingTab {
     display(): void {
         const { containerEl } = this;
         containerEl.empty();
-
         containerEl.createEl('h2', { text: 'Nuclei 模板转换设置' });
 
         new Setting(containerEl)
@@ -71,14 +68,16 @@ export class NucleiSettingTab extends PluginSettingTab {
 
         new Setting(containerEl)
             .setName('自定义 AI 提示词 (Prompt)')
-            .setDesc('定义发送给AI的指令。使用 {{description}} 和{{name}}作为占位符代表原始漏洞描述和名称。')
-            .addTextArea(text => text
-                .setPlaceholder(DEFAULT_SETTINGS.aiPrompt)
-                .setValue(this.plugin.settings.aiPrompt)
-                .onChange(async (value) => {
-                    this.plugin.settings.aiPrompt = value;
-                    await this.plugin.saveSettings();
-                })
-                .inputEl.rows = 6); // 让输入框大一点
+            .setDesc('定义发送给AI的指令。使用 {{name}} 和 {{description}} 作为占位符。')
+            .addTextArea((text: TextAreaComponent) => {
+                text.setPlaceholder(DEFAULT_SETTINGS.aiPrompt)
+                    .setValue(this.plugin.settings.aiPrompt)
+                    .onChange(async (value) => {
+                        this.plugin.settings.aiPrompt = value;
+                        await this.plugin.saveSettings();
+                    });
+                text.inputEl.rows = 15; // 增加行数以更好地显示默认prompt
+                text.inputEl.cols = 50;
+            });
     }
 }
